@@ -1,13 +1,40 @@
 html {
     font-size: 15px; /* px means "pixels": the base font size is now 15 pixels high  */
     font-family: "PT Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: #171f66d3; /*nice blue. made from scratch to match the blue lighting thats coming from the spots */
     }
 h1 {
     font-size: 60px; /* big top header */
     text-align: center; /* right in the center */
+       
+    margin: 0;
+    padding: 20px 0;    
+    color: #964c07;        
+    text-shadow: 3px 3px 3px black;
     }  
+body {
+    width: 800px;
+    margin: 0 auto; 
+    background-color: #f0dfbb;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    }
 p, li { /* paragraphs and list items will be the same */
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
     }
+ img {
+    width: 750px;
+    padding: 25px;
+    display: block;
+    margin: 0 auto ;
+    }
+ h2 {
+     color: rgb(103, 119, 161);
+     text-shadow: 1px 1px 2px black ;
+    }
+h3 {
+    color: #964c07;
+    text-shadow: 0px 1px 1px black ;
+}
