@@ -1,4 +1,13 @@
 html {
-    font-size: 15px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-size: 15px; /* px means "pixels": the base font size is now 15 pixels high  */
     font-family: "PT Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
-  }
+    }
+h1 {
+    font-size: 60px; /* big top header */
+    text-align: center; /* right in the center */
+    }  
+p, li { /* paragraphs and list items will be the same */
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    }
